@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*INICIO DO CSS*/
+
+header {
+    background-color: #3b8686;
+    padding: 30px 10px 30px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin: 0 40px 0 40px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+header .casa {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 20px;
+    border-radius: 25px
+}
+.banner {
+    padding: 15vw 10vw 15vw 10vw;
+    background: url(../src/back-banner.png) no-repeat center center;
+    background-size: cover;
+}
+.banner h2 {
+    font-size: 3rem;
+    color: white;
+    background-color: rgba(59, 134, 134, 50%);
+    width: 40%;
+    padding: 1vw;
+}
+.s2 .ds2 {
+    display: flex;
+    padding: 5vw;
+}
+.s2 .ds2 .ds21 {
+    text-align: center;
+    padding: 0 5vw;
+}
+.s2 h3 {
+    font-size: 1.5rem;
+    padding: 20px 0 20px;
+    font-weight: bold;
+}
+.s2 span {
+    color: #3b8686;
+    font-size: 3rem;
+}
+.s2 p {
+    padding: 0px 0px 20px 0px;
+}
+.s2 button {
+    color: white;
+    background-color: #3b8686;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+.numb {
+    padding: 10vw 10vw 10vw 10vw;
+    background: linear-gradient(rgba(121,189, 154, 0.5),rgba(121,189, 154, 0.5)), url(../src/back-numeros.png) no-repeat center center;
+    background-size: cover;
+}
+.numb .disp {
+    display: flex;
+    justify-content: space-between;
+}
+.numb .disp div {
+    color: white;
+    font-size: 3rem;    
+    text-align: center;
+}
+.atv {
+    padding: 5vw 10vw 5vw 10vw;
+}
+.atv .disp1 {
+    display: flex;
+    justify-content: center;
+    padding: 0 1vw;
+}
+.atv h2 {
+    font-size: 2rem;
+    color: #0B486B;
+    padding: 0 0 2vw 0;
+}
+.atv .disp1 .d1 p {
+    color: #747474;
+    padding: 0 5vw 1vw 0vw;
+}
+.atv .disp1 .d1 button {
+    color: white;
+    background-color: #0B486B;
+    border: none;
+    padding: 15px;
+    margin: 0 10px 0 0;
+}
+footer {
+    background-color: #3B8686;
+    padding: 3vw 5vw;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+footer div .nav1 ul li {
+    padding: 0 10px 0 0;
+    font-size: 2.5rem;
+}
+footer div nav ul {
+    display: flex;
+}
+footer div .nav1 {
+    padding: 0 0 1vw 0;
+}
+.d20 p {
+    padding: 0 0px 10px 0;
+}
+.d20 p span {
+    padding: 0 5px 0 0;
+}
+.nav2 ul {
+    flex-direction: column;
+}
+.nav2 ul li {
+    padding: 0 0px 10px 0;
+}
+.nav2 ul li a {
+    text-decoration: none;
+    color: white;
+}
