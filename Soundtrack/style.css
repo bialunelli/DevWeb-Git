@@ -1,0 +1,117 @@
+/*
+CSS RESET
+*/
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+* {
+padding:0;
+margin:0;
+vertical-align:baseline;
+list-style:none;
+border:0
+}
+/*GERAL*/
+
+body {
+    margin: 2vw 2vw 2vw 2vw;
+}
+header {
+    padding: 0 0 8vw 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+    justify-content: right;
+}
+header ul li {
+    margin: 5px;
+}
+header ul li a {
+    color: #000000;
+}
+section.s1 {
+    display: flex;
+    border-bottom: solid #DEDEDE;
+    padding:  0 0 5vw 0;
+    margin: 0 0 5vw 0;
+}
+section.s1 div.d1 {
+    padding: 0vw 13vw 0vw 0vw;
+}
+section.s1 p.title {
+    font-size: 3rem;
+    padding: 0 0 3vw 0;
+    border-bottom: solid #DEDEDE;
+}
+section.s1 p.lorem {
+    padding: 3vw 0 2vw 0;
+}
+section.s1 div.d4 {
+    display: flex;
+}
+section.s1 div.d4 img {
+    padding: 0 1vw 0 0vw;
+}
+section.s1 div.d4 p span {
+    color: #DEDEDE;
+}
+section.s1 div.d4 p {
+    padding: 6px 0 0 0;
+}
+section.s2 {
+    display: flex;
+}
+section.s2 div h2 {
+    font-size: 3rem;
+    padding: 0 0 1.5vw 0;
+}
+section.s2 div.eita {
+    padding: 0 8vw 0 0;
+}
+section.s2 div nav ul li span {
+    color: #DEDEDE;
+    font-size: 1.5rem;
+    padding: 0 1.5vw 0 0;
+}
+section.s2 div nav ul li p.abcde{
+    display: flex;
+    padding: 2vw 0 2vw 4vw;
+    color: gray;
+    border-bottom: solid #DEDEDE;
+}
+section.s2 div nav ul li p {
+    display: flex;
+    padding: 2vw 0 2vw 4vw;
+    color: gray;
+}
+section.s2 div nav ul li h3 {
+    font-size: 2rem;
+}
+section.s2 div nav ul li h3.abc {
+    padding: 2vw 0 0 0;
+}
+section.s2 div nav ul li h3.abcd {
+    padding: 2vw 0 0 0;
+}
+footer {
+    border-top: solid black;
+    padding: 3vw 0 0 0;
+}
+footer p span {
+    font-size: 2rem;
+    padding: 0 0 1.5vw 0;
+    display: inline-block;
+    margin:  0 10px 0 10px;
+}
+footer p {
+    text-align: center;
+}
